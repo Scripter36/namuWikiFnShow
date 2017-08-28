@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "namuWikiFnShow",
+    "description": "각주를 표시해 줍니다.",
+    "version": "1.0",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab",
+        "<all_urls>"
+    ],
+    "web_accessible_resources": [
+        "inject.js"
+    ]
+}
